@@ -1,6 +1,7 @@
 # FE-pracitce
 
-📦GraphQL
+📦GraphQL<br/>
 ┗ 📂TWEETQL
-📦TypeScript
+<br/>
+📦TypeScript<br/>
 ┗ 📂captain
