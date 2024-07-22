@@ -1,3 +1,4 @@
+// type으로 타입 정의하기
 // type Todo = {
 //   id: number;
 //   title: string;
@@ -23,6 +24,7 @@ function fetchTodoItems(): Todo[] {
 }
 
 // crud methods
+// API를 불러오는 것처럼 작성하기 위해서 만든 함수
 function fetchTodos(): object[] {
   const todos = fetchTodoItems();
   return todos;
@@ -55,13 +57,13 @@ function addTwoTodoItems(): void {
   // addTodo() 함수를 두 번 호출하여 todoItems에 새 할 일이 2개 추가되어야 합니다.
   const item1 =  {
     id: 4,
-    title: '아이템 4',
+    title: 'test1',
     done: false
   }
   addTodo(item1);
   addTodo({
     id: 5,
-    title: '아이템 5',
+    title: 'test2',
     done: false
   });
 }
