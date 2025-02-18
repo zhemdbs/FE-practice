@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./sign.css">
+</head>
+<body>
+  <div class="sign">
+    <div class="sign__inner">
+      <h1>회원 가입을 위해 <br>정보를 입력해주세요</h1>
+      <form class="sign__form">
+        <label for="email">* 이메일</label>
+        <input type="email" id="email" name="email" required>
+      </form>
+      <form class="sign__form">
+        <label for="name">* 이름</label>
+        <input type="text" id="name" name="name" required>
+      </form>
+      <form class="sign__form">
+        <label for="password">* 비밀번호</label>
+        <input type="password" id="password" name="password" required>
+      </form>
+      <form class="sign__form">
+        <label for="re-password">* 비밀번호 확인</label>
+        <input type="password" id="re-password" name="re-password" required>
+      </form>
+      <div class="sign__gender">
+        <form>
+          <input id="female" name="gender" type="radio" value="female">
+          <label for="female">여성</label>
+        </form>
+        <form>
+          <input id="male" name="gender" type="radio" value="male">
+          <label for="male">남성</label>
+        </form>
+      </div>
+      <div class="sign__terms">
+        <input id="terms" type="checkbox" value="terms">
+        <label for="terms">이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다.</label>
+      </div>
+      <button type="submit" class="sign__submit"><span>가입하기</span></button>
+    </div>
+  </div>
+</body>
+</html>
